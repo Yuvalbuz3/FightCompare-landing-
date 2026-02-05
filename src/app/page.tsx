@@ -4,31 +4,25 @@ export default function Home() {
       <main className="mx-auto flex max-w-4xl flex-col items-center gap-10 px-6 py-12 text-center lg:py-16">
         {/* Hero */}
         <section className="space-y-6">
-          <p className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/60 px-3 py-1 text-xs font-medium text-emerald-300">
-            Retailer Partner Program
-            <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+          <p className="inline-flex items-center gap-2 rounded-full border border-red-600/60 bg-red-950/60 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-red-300">
+            FightCompare · Retailer Program
+            <span className="h-1.5 w-1.5 rounded-full bg-red-500" />
           </p>
           <h1 className="text-balance text-4xl font-semibold tracking-tight sm:text-5xl lg:text-6xl">
             Turn combat-sport shoppers
-            <span className="block text-emerald-300">into high-intent buyers.</span>
+            <span className="block text-red-400">into high-intent buyers.</span>
           </h1>
-          <p className="max-w-xl text-balance text-sm leading-relaxed text-zinc-300 sm:text-base mx-auto">
+          <p className="mx-auto max-w-xl text-balance text-sm leading-relaxed text-zinc-300 sm:text-base">
             FightCompare is a comparison engine for MMA, boxing and Muay Thai equipment.
             We send ready-to-buy traffic directly to your product pages using
             data-driven rankings, side-by-side comparisons and affiliate links.
           </p>
-          <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <div className="flex flex-col items-center justify-center gap-3">
             <a
               href="#partner"
-              className="inline-flex items-center justify-center rounded-full bg-emerald-400 px-6 py-2.5 text-sm font-semibold text-zinc-950 shadow-lg shadow-emerald-500/30 transition hover:bg-emerald-300"
+              className="inline-flex items-center justify-center rounded-full bg-red-500 px-8 py-3 text-sm font-semibold uppercase tracking-wide text-zinc-50 shadow-lg shadow-red-500/40 transition hover:bg-red-400"
             >
               Become a launch partner
-            </a>
-            <a
-              href="#how-it-works"
-              className="inline-flex items-center justify-center text-sm font-medium text-zinc-200 underline-offset-4 hover:underline"
-            >
-              See how FightCompare works
             </a>
           </div>
           <div className="mx-auto grid max-w-3xl gap-4 text-xs text-zinc-300 sm:grid-cols-3 sm:text-sm">
@@ -65,7 +59,7 @@ export default function Home() {
           </div>
           <div className="grid gap-6 text-left md:grid-cols-3">
             <div className="space-y-2 rounded-2xl border border-zinc-900 bg-zinc-900/60 p-4 text-left">
-              <p className="text-xs font-semibold uppercase tracking-wide text-emerald-300">
+              <p className="text-xs font-semibold uppercase tracking-wide text-red-400">
                 1 · Product data
               </p>
               <p className="text-sm font-semibold text-zinc-50">You share your catalog or feed</p>
@@ -75,7 +69,7 @@ export default function Home() {
               </p>
             </div>
             <div className="space-y-2 rounded-2xl border border-zinc-900 bg-zinc-900/60 p-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-emerald-300">
+              <p className="text-xs font-semibold uppercase tracking-wide text-red-400">
                 2 · Comparison & content
               </p>
               <p className="text-sm font-semibold text-zinc-50">
@@ -87,7 +81,7 @@ export default function Home() {
               </p>
             </div>
             <div className="space-y-2 rounded-2xl border border-zinc-900 bg-zinc-900/60 p-4">
-              <p className="text-xs font-semibold uppercase tracking-wide text-emerald-300">
+              <p className="text-xs font-semibold uppercase tracking-wide text-red-400">
                 3 · Qualified traffic
               </p>
               <p className="text-sm font-semibold text-zinc-50">
@@ -134,17 +128,17 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="mt-4 flex flex-col items-center justify-between gap-4 rounded-2xl border border-emerald-500/30 bg-emerald-500/5 px-4 py-4 text-sm sm:flex-row sm:px-6">
+          <div className="mt-4 flex flex-col items-center justify-between gap-4 rounded-2xl border border-red-500/40 bg-red-950/40 px-4 py-4 text-sm sm:flex-row sm:px-6">
             <div className="space-y-1 text-center sm:text-left">
-              <p className="font-semibold text-emerald-200">Share your catalog & affiliate details</p>
-              <p className="text-xs text-emerald-100/80">
+              <p className="font-semibold text-red-200">Share your catalog & affiliate details</p>
+              <p className="text-xs text-red-100/80">
                 Send us your store URL, key categories, and current affiliate setup. We&apos;ll
                 respond with a tailored proposal.
               </p>
             </div>
             <a
               href="mailto:partners@fightcompare.com?subject=Retailer%20partnership&body=Hi%20FightCompare%20team%2C%0D%0A%0D%0AWe%27d%20like%20to%20discuss%20a%20retailer%20partnership.%20Here%27s%20some%20info%20about%20our%20store%3A%0D%0A-%20Store%20name%3A%0D%0A-%20Website%3A%0D%0A-%20Key%20categories%20(MMA%2C%20boxing%2C%20Muay%20Thai%2C%20etc.)%3A%0D%0A-%20Affiliate%20platform%20(or%20direct)%3A%0D%0A-%20Markets%20you%20ship%20to%3A%0D%0A%0D%0ABest%2C%0D%0A"
-              className="inline-flex items-center justify-center rounded-full bg-emerald-400 px-5 py-2 text-xs font-semibold text-zinc-950 shadow-lg shadow-emerald-500/30 transition hover:bg-emerald-300"
+              className="inline-flex items-center justify-center rounded-full bg-red-500 px-5 py-2 text-xs font-semibold uppercase tracking-wide text-zinc-50 shadow-lg shadow-red-500/40 transition hover:bg-red-400"
             >
               Email partners@fightcompare.com
             </a>
