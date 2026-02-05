@@ -1,9 +1,21 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-50">
       <main className="mx-auto flex max-w-4xl flex-col items-center gap-10 px-6 py-12 text-center lg:py-16">
         {/* Hero */}
         <section className="space-y-6">
+          <div className="flex justify-center">
+            <Image
+              src="/fighter.png"
+              alt="MMA fighters training"
+              width={480}
+              height={260}
+              className="h-auto max-w-full rounded-3xl border border-zinc-800 bg-zinc-900 shadow-[0_0_30px_rgba(0,0,0,0.8)]"
+              priority
+            />
+          </div>
           <p className="inline-flex items-center gap-2 rounded-full border border-red-600/60 bg-red-950/60 px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] text-red-300">
             FightCompare · Retailer Program
             <span className="h-1.5 w-1.5 rounded-full bg-red-500" />
@@ -17,15 +29,19 @@ export default function Home() {
             We send ready-to-buy traffic directly to your product pages using
             data-driven rankings, side-by-side comparisons and affiliate links.
           </p>
-          <div className="flex flex-col items-center justify-center gap-3">
+          <div className="flex flex-col items-center justify-center gap-2">
             <a
               href="#partner"
               className="inline-flex items-center justify-center rounded-full bg-red-500 px-8 py-3 text-sm font-semibold uppercase tracking-wide text-zinc-50 shadow-lg shadow-red-500/40 transition hover:bg-red-400"
             >
               Become a launch partner
             </a>
+            <p className="max-w-md text-xs text-zinc-500">
+              FightCompare is currently in active development; we&apos;re onboarding a small group of
+              early retail partners.
+            </p>
           </div>
-          <div className="mx-auto grid max-w-3xl gap-4 text-xs text-zinc-300 sm:grid-cols-3 sm:text-sm">
+          <div className="mx-auto grid max-w-3xl gap-4 text-xs text-zinc-200 sm:grid-cols-3 sm:text-sm">
             <div className="text-center">
               <p className="font-semibold text-zinc-100">High-intent traffic</p>
               <p>Buyers comparing gloves, shin guards, shorts and more right before purchase.</p>
